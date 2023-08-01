@@ -30,7 +30,7 @@
 
   .header-container {
     color: #5995DA;
-    background-color: #D6E9FE;
+    background-color: #d6e9fe;
     display: flex;
     justify-content: center;
   }
@@ -40,5 +40,24 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Vertical alignment */
   }
  
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+    background-color: #d6d7fe;
+  }
+  
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+  }
