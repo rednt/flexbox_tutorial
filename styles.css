@@ -13,10 +13,19 @@
   }
   
   .menu {
-    border: 1px solid #fff;  /* For debugging */
     width: 900px;
     display: flex;
     justify-content: space-around; /* Spreads its items out across its entire width */
+    padding: 5px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login {
+    margin-left: 20px;
   }
 
   .flex {
