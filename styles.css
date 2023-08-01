@@ -86,6 +86,7 @@
     background-color: #D6E9FE;
     height: 200px;
     flex: 1; /* Distributing space into the items themselves */
+    text-align: center;
   }
 
   .footer-one,
